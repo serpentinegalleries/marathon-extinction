@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>EXTINCT.LY</title>
+	<link href="http://extinct.ly/atom.xml" rel="self"/>
+	<link href="http://extinct.ly"/>
+	<updated>2016-05-28T23:00:00.836Z</updated>
+	<id>http://extinct.ly</id>
+	<author>
+		<name>Kei Kreutler</name>
+		<email>kei@ourmachine.net</email>
+	</author>
+
+	
+		<entry>
+			<title>This is a Goodbye Blog Post</title>
+			<link href="http://extinct.ly//posts/bye"/>
+			<updated>2016-05-28T22:58:59.310Z</updated>
+			<id>http://extinct.ly//posts/bye</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+		 More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;This is a Goodbye Blog Post | EXTINCT.LY&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;EXTINCT.LY is an ongoing commissioning and research platform developed to support remote participation in the Serpentine Galleries’ 2014 Extinction Marathon: Visions of the Future.&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;serpentine galleries, extinction marathon&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Kei Kreutler&quot; /&gt;
+
+
+	&lt;meta property=&quot;og:title&quot; content=&quot;EXTINCT.LY&quot; /&gt;
+	&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+	&lt;meta property=&quot;og:description&quot; content=&quot;EXTINCT.LY is an ongoing commissioning and research platform developed to support remote participation in the Serpentine Galleries’ 2014 Extinction Marathon: Visions of the Future.&quot; /&gt;
+	&lt;meta property=&quot;og:url&quot; content=&quot;http://extinct.ly/&quot; /&gt;
+	&lt;meta property=&quot;og:image&quot; content=&quot;http://extinct.ly/images/extinctionsymbol.jpg&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.78.4&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+	&lt;link rel=&quot;shortcut icon&quot; href=&quot;/images/favicon.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;//api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;header&gt;
+	&lt;!-- Logo --&gt;
+	&lt;div class=&quot;img-responsive&quot;&gt;
+		&lt;a href=&quot;/&quot;&gt;
+		&lt;img src=&quot;/images/logo.png&quot;&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;nav-wrapper&quot;&gt;
+		&lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+			&lt;div class=&quot;navbar-header&quot;&gt;
+				&lt;a class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;
+				&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+				&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+				&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;navbar-collapse collapse&quot;&gt;
+				&lt;ul id=&quot;navigation&quot; class=&quot;nav navbar-nav&quot;&gt;
+					&lt;div class=&quot;row&quot;&gt;
+						
+							&lt;li
+								about=&quot;/dashboard&quot;
+								class=&quot;col-sm-2 &quot;
+							&gt;
+								&lt;a href=&quot;/dashboard&quot; property=&quot;dc:title&quot;&gt;
+									Dashboard
+								&lt;/a&gt;
+							&lt;/li&gt;
+						
+							&lt;li
+								about=&quot;/map&quot;
+								class=&quot;col-sm-2 &quot;
+							&gt;
+								&lt;a href=&quot;/map&quot; property=&quot;dc:title&quot;&gt;
+									World Map
+								&lt;/a&gt;
+							&lt;/li&gt;
+						
+							&lt;li
+								about=&quot;/texts&quot;
+								class=&quot;col-sm-2 &quot;
+							&gt;
+								&lt;a href=&quot;/texts&quot; property=&quot;dc:title&quot;&gt;
+									Texts
+								&lt;/a&gt;
+							&lt;/li&gt;
+						
+							&lt;li
+								about=&quot;/participants&quot;
+								class=&quot;col-sm-2 &quot;
+							&gt;
+								&lt;a href=&quot;/participants&quot; property=&quot;dc:title&quot;&gt;
+									Participants
+								&lt;/a&gt;
+							&lt;/li&gt;
+						
+							&lt;li
+								about=&quot;/casestudies&quot;
+								class=&quot;col-sm-2 &quot;
+							&gt;
+								&lt;a href=&quot;/casestudies&quot; property=&quot;dc:title&quot;&gt;
+									Case Studies
+								&lt;/a&gt;
+							&lt;/li&gt;
+						
+	                    &lt;li class=&quot;col-sm-2 dropdown&quot;&gt;
+	                        &lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;Live &lt;b class=&quot;caret&quot;&gt;&lt;/b&gt;&lt;/a&gt;
+	                        &lt;ul class=&quot;dropdown-menu&quot;&gt;
+	                            &lt;li class=&quot;text-center&quot;&gt;&lt;a href=&quot;http://blog.extinct.ly&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+	                            &lt;li class=&quot;text-center&quot;&gt;&lt;a href=&quot;/programme&quot;&gt;Programme&lt;/a&gt;&lt;/li&gt;
+	                        &lt;/ul&gt;
+	                    &lt;/li&gt;
+					&lt;/div&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/header&gt;
+
+	&lt;!-- Content --&gt;
+	&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;This is a Goodbye Blog Post&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a goodbye &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+
+
+	&lt;!-- Footer --&gt;
+	&lt;footer&gt;
+		&lt;div class=&quot;container&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;col-md-3&quot;&gt;
+					&lt;a href=&quot;http://www.serpentinegalleries.org/exhibitions-events/extinction-marathon&quot; target=&quot;_blank&quot;&gt;
+					&lt;img src=&quot;/images/serpentine_marathon.png&quot;&gt;
+					&lt;/a&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;col-md-3&quot;&gt;
+					&lt;a href=&quot;http://www.thespace.org/&quot; target=&quot;_blank&quot;&gt;
+					&lt;img src=&quot;/images/thespace.jpg&quot;&gt;
+					&lt;/a&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;col-md-3&quot;&gt;
+					&lt;h3&gt;
+						&lt;a href=&quot;#contact&quot; data-toggle=&quot;modal&quot; data-target=&quot;#contact&quot;&gt;CONTACT&lt;/a&gt;
+					&lt;/h3&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;col-md-3&quot;&gt;
+					&lt;a href=&quot;https://twitter.com/hashtag/extinction&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-twitter fa-lg&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+					&lt;a href=&quot;https://instagram.com/extinctionsites&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-instagram fa-lg&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+					&lt;a href=&quot;https://vimeo.com/serpentinegalleries&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-vimeo-square fa-lg&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+					&lt;a href=&quot;https://github.com/extinctly&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-github fa-lg&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/footer&gt;
+
+
+	&lt;!-- Contact modal --&gt;
+	&lt;div id=&quot;contact&quot; class=&quot;modal fade&quot;&gt;
+		&lt;div class=&quot;modal-dialog&quot;&gt;
+			&lt;div class=&quot;modal-content&quot;&gt;
+				&lt;div class=&quot;modal-header&quot;&gt;
+					&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;
+					&lt;h2 class=&quot;modal-title&quot;&gt;Contact&lt;/h2&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;modal-body&quot;&gt;
+					&lt;p class=&quot;lead&quot;&gt;
+						Suggest an extinction site, data source, case study, or other work.
+					&lt;/p&gt;
+					&lt;div class=&quot;form-group&quot;&gt;
+						&lt;label class=&quot;sr-only&quot; for=&quot;name&quot;&gt;Name&lt;/label&gt;
+						&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;name&quot; placeholder=&quot;Project, artist, or organization name&quot;&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;form-group&quot;&gt;
+						&lt;label class=&quot;sr-only&quot; for=&quot;location&quot;&gt;Location&lt;/label&gt;
+						&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;location&quot; placeholder=&quot;Location&quot;&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;form-group&quot;&gt;
+						&lt;label class=&quot;sr-only&quot; for=&quot;description_long&quot;&gt;Description&lt;/label&gt;
+						&lt;textarea type=&quot;text&quot; rows=&quot;3&quot; class=&quot;form-control&quot; id=&quot;description_long&quot; placeholder=&quot;Description&quot;&gt;&lt;/textarea&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;form-group&quot;&gt;
+						&lt;label class=&quot;sr-only&quot; for=&quot;link1_url&quot;&gt;Link&lt;/label&gt;
+						&lt;input id=&quot;link1_url&quot; class=&quot;form-control&quot; type=&quot;url&quot; placeholder=&quot;Link URL&quot;&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;form-group&quot;&gt;
+						&lt;label class=&quot;sr-only&quot; for=&quot;contact_email&quot;&gt;Your contact information&lt;/label&gt;
+						&lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;contact_email&quot; placeholder=&quot;Your email address&quot;&gt;
+					&lt;/div&gt;
+				&lt;div&gt;
+					&lt;button type=&quot;submit&quot; data-dismiss=&quot;modal&quot; class=&quot;btn btn-primary lead&quot; onclick=&quot;onSubmit()&quot;&gt;Submit&lt;/button&gt;
+				&lt;/div&gt;				
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;!-- /Contact modal --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdn.firebase.com/js/client/1.0.15/firebase.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/bootstrap-custom.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/js/leaflet.ajax.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/modal.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/map.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/contact.js&quot;&gt;&lt;/script&gt;
+
+	&lt;!-- Google Analytics --&gt;
+	&lt;script&gt;
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-55658105-1', 'todayandyesterday.co.uk');
+		ga('send', 'pageview');
+		ga('create', 'UA-49181439-1', 'auto', { 'allowLinker': true, 'name' : 'the_space' });
+		ga('the_space.send', 'pageview');
+	&lt;/script&gt;
+
+
+
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>This is a Hello Blog Post</title>
+			<link href="http://extinct.ly//posts/hello"/>
+			<updated>2016-05-28T22:58:59.310Z</updated>
+			<id>http://extinct.ly//posts/hello</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+		 More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;This is a Hello Blog Post | EXTINCT.LY&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;EXTINCT.LY is an ongoing commissioning and research platform developed to support remote participation in the Serpentine Galleries’ 2014 Extinction Marathon: Visions of the Future.&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;serpentine galleries, extinction marathon&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Kei Kreutler&quot; /&gt;
+
+
+	&lt;meta property=&quot;og:title&quot; content=&quot;EXTINCT.LY&quot; /&gt;
+	&lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;
+	&lt;meta property=&quot;og:description&quot; content=&quot;EXTINCT.LY is an ongoing commissioning and research platform developed to support remote participation in the Serpentine Galleries’ 2014 Extinction Marathon: Visions of the Future.&quot; /&gt;
+	&lt;meta property=&quot;og:url&quot; content=&quot;http://extinct.ly/&quot; /&gt;
+	&lt;meta property=&quot;og:image&quot; content=&quot;http://extinct.ly/images/extinctionsymbol.jpg&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.78.4&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+	&lt;link rel=&quot;shortcut icon&quot; href=&quot;/images/favicon.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;//api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/twitter-bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;header&gt;
+	&lt;!-- Logo --&gt;
+	&lt;div class=&quot;img-responsive&quot;&gt;
+		&lt;a href=&quot;/&quot;&gt;
+		&lt;img src=&quot;/images/logo.png&quot;&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;nav-wrapper&quot;&gt;
+		&lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+			&lt;div class=&quot;navbar-header&quot;&gt;
+				&lt;a class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;
+				&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+				&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+				&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;navbar-collapse collapse&quot;&gt;
+				&lt;ul id=&quot;navigation&quot; class=&quot;nav navbar-nav&quot;&gt;
+					&lt;div class=&quot;row&quot;&gt;
+						
+							&lt;li
+								about=&quot;/dashboard&quot;
+								class=&quot;col-sm-2 &quot;
+							&gt;
+								&lt;a href=&quot;/dashboard&quot; property=&quot;dc:title&quot;&gt;
+									Dashboard
+								&lt;/a&gt;
+							&lt;/li&gt;
+						
+							&lt;li
+								about=&quot;/map&quot;
+								class=&quot;col-sm-2 &quot;
+							&gt;
+								&lt;a href=&quot;/map&quot; property=&quot;dc:title&quot;&gt;
+									World Map
+								&lt;/a&gt;
+							&lt;/li&gt;
+						
+							&lt;li
+								about=&quot;/texts&quot;
+								class=&quot;col-sm-2 &quot;
+							&gt;
+								&lt;a href=&quot;/texts&quot; property=&quot;dc:title&quot;&gt;
+									Texts
+								&lt;/a&gt;
+							&lt;/li&gt;
+						
+							&lt;li
+								about=&quot;/participants&quot;
+								class=&quot;col-sm-2 &quot;
+							&gt;
+								&lt;a href=&quot;/participants&quot; property=&quot;dc:title&quot;&gt;
+									Participants
+								&lt;/a&gt;
+							&lt;/li&gt;
+						
+							&lt;li
+								about=&quot;/casestudies&quot;
+								class=&quot;col-sm-2 &quot;
+							&gt;
+								&lt;a href=&quot;/casestudies&quot; property=&quot;dc:title&quot;&gt;
+									Case Studies
+								&lt;/a&gt;
+							&lt;/li&gt;
+						
+	                    &lt;li class=&quot;col-sm-2 dropdown&quot;&gt;
+	                        &lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;Live &lt;b class=&quot;caret&quot;&gt;&lt;/b&gt;&lt;/a&gt;
+	                        &lt;ul class=&quot;dropdown-menu&quot;&gt;
+	                            &lt;li class=&quot;text-center&quot;&gt;&lt;a href=&quot;http://blog.extinct.ly&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+	                            &lt;li class=&quot;text-center&quot;&gt;&lt;a href=&quot;/programme&quot;&gt;Programme&lt;/a&gt;&lt;/li&gt;
+	                        &lt;/ul&gt;
+	                    &lt;/li&gt;
+					&lt;/div&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/header&gt;
+
+	&lt;!-- Content --&gt;
+	&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;This is a Hello Blog Post&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a hello &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+
+
+	&lt;!-- Footer --&gt;
+	&lt;footer&gt;
+		&lt;div class=&quot;container&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;col-md-3&quot;&gt;
+					&lt;a href=&quot;http://www.serpentinegalleries.org/exhibitions-events/extinction-marathon&quot; target=&quot;_blank&quot;&gt;
+					&lt;img src=&quot;/images/serpentine_marathon.png&quot;&gt;
+					&lt;/a&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;col-md-3&quot;&gt;
+					&lt;a href=&quot;http://www.thespace.org/&quot; target=&quot;_blank&quot;&gt;
+					&lt;img src=&quot;/images/thespace.jpg&quot;&gt;
+					&lt;/a&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;col-md-3&quot;&gt;
+					&lt;h3&gt;
+						&lt;a href=&quot;#contact&quot; data-toggle=&quot;modal&quot; data-target=&quot;#contact&quot;&gt;CONTACT&lt;/a&gt;
+					&lt;/h3&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;col-md-3&quot;&gt;
+					&lt;a href=&quot;https://twitter.com/hashtag/extinction&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-twitter fa-lg&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+					&lt;a href=&quot;https://instagram.com/extinctionsites&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-instagram fa-lg&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+					&lt;a href=&quot;https://vimeo.com/serpentinegalleries&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-vimeo-square fa-lg&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+					&lt;a href=&quot;https://github.com/extinctly&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-github fa-lg&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/footer&gt;
+
+
+	&lt;!-- Contact modal --&gt;
+	&lt;div id=&quot;contact&quot; class=&quot;modal fade&quot;&gt;
+		&lt;div class=&quot;modal-dialog&quot;&gt;
+			&lt;div class=&quot;modal-content&quot;&gt;
+				&lt;div class=&quot;modal-header&quot;&gt;
+					&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;
+					&lt;h2 class=&quot;modal-title&quot;&gt;Contact&lt;/h2&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;modal-body&quot;&gt;
+					&lt;p class=&quot;lead&quot;&gt;
+						Suggest an extinction site, data source, case study, or other work.
+					&lt;/p&gt;
+					&lt;div class=&quot;form-group&quot;&gt;
+						&lt;label class=&quot;sr-only&quot; for=&quot;name&quot;&gt;Name&lt;/label&gt;
+						&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;name&quot; placeholder=&quot;Project, artist, or organization name&quot;&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;form-group&quot;&gt;
+						&lt;label class=&quot;sr-only&quot; for=&quot;location&quot;&gt;Location&lt;/label&gt;
+						&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;location&quot; placeholder=&quot;Location&quot;&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;form-group&quot;&gt;
+						&lt;label class=&quot;sr-only&quot; for=&quot;description_long&quot;&gt;Description&lt;/label&gt;
+						&lt;textarea type=&quot;text&quot; rows=&quot;3&quot; class=&quot;form-control&quot; id=&quot;description_long&quot; placeholder=&quot;Description&quot;&gt;&lt;/textarea&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;form-group&quot;&gt;
+						&lt;label class=&quot;sr-only&quot; for=&quot;link1_url&quot;&gt;Link&lt;/label&gt;
+						&lt;input id=&quot;link1_url&quot; class=&quot;form-control&quot; type=&quot;url&quot; placeholder=&quot;Link URL&quot;&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;form-group&quot;&gt;
+						&lt;label class=&quot;sr-only&quot; for=&quot;contact_email&quot;&gt;Your contact information&lt;/label&gt;
+						&lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;contact_email&quot; placeholder=&quot;Your email address&quot;&gt;
+					&lt;/div&gt;
+				&lt;div&gt;
+					&lt;button type=&quot;submit&quot; data-dismiss=&quot;modal&quot; class=&quot;btn btn-primary lead&quot; onclick=&quot;onSubmit()&quot;&gt;Submit&lt;/button&gt;
+				&lt;/div&gt;				
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;!-- /Contact modal --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdn.firebase.com/js/client/1.0.15/firebase.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/bootstrap-custom.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/js/leaflet.ajax.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/modal.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/map.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/contact.js&quot;&gt;&lt;/script&gt;
+
+	&lt;!-- Google Analytics --&gt;
+	&lt;script&gt;
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-55658105-1', 'todayandyesterday.co.uk');
+		ga('send', 'pageview');
+		ga('create', 'UA-49181439-1', 'auto', { 'allowLinker': true, 'name' : 'the_space' });
+		ga('the_space.send', 'pageview');
+	&lt;/script&gt;
+
+
+
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+</feed>
